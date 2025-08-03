@@ -72,3 +72,20 @@ I practiced using the ternary operator for simple conditional logic. The challen
 - Other Notes:
 Short and clean — a nice warm-up for thinking about number handling and logic.
 
+### Challenge 5: Will You Make It? (8kyu)
+
+- **Link:** https://www.codewars.com/kata/5861d28f124b35723e00005e
+- **Description:**  
+  Determine if you can reach a destination given miles per gallon, fuel left, and distance.
+
+- **My Solution:**
+  ```js
+  function zeroFuel(distanceToPump, mpg, fuelLeft) {
+    return mpg * fuelLeft >= distanceToPump;
+  }
+
+- What I Learned:
+This was a good example of a logic-based problem where the return value is just a boolean expression. No if statement was needed — just return the condition directly.
+
+- Other Notes:
+This was the most real-world challenge of the 5, and helped me focus on interpreting the math clearly.
