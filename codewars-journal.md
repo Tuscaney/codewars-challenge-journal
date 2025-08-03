@@ -53,3 +53,22 @@ This challenge was a solid review of for loops and array manipulation. I practic
 
 - Other Notes:
 The challenge was very readable and helped reinforce the pattern of iterating from 1 to n with i <= n.
+
+### Challenge 4: Return Negative (8kyu)
+
+- **Link:** https://www.codewars.com/kata/55685cd7ad70877c23000102
+- **Description:**  
+  Return the negative version of a number. If it's already negative or 0, return it unchanged.
+
+- **My Solution:**
+  ```js
+  function makeNegative(num) {
+    return num > 0 ? -num : num;
+  }
+
+- What I Learned:
+I practiced using the ternary operator for simple conditional logic. The challenge also reinforced thinking about edge cases like 0 and already-negative numbers.
+
+- Other Notes:
+Short and clean — a nice warm-up for thinking about number handling and logic.
+
