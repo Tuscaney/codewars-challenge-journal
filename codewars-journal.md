@@ -31,3 +31,25 @@ This challenge helped me practice array methods. I used .filter() to extract pos
 
 - Other Notes:
 I originally considered looping manually, but using built-in methods made the solution shorter and more elegant.
+
+### Challenge 3: Count by X (8kyu)
+
+- **Link:** https://www.codewars.com/kata/5513795bd3fafb56c200049e
+- **Description:**  
+  Create a function that returns a sequence of `n` multiples of `x`.
+
+- **My Solution:**
+  ```js
+  function countBy(x, n) {
+    const result = [];
+    for (let i = 1; i <= n; i++) {
+      result.push(x * i);
+    }
+    return result;
+  }
+
+- What I Learned:
+This challenge was a solid review of for loops and array manipulation. I practiced multiplying inside a loop and storing results in a growing array.
+
+- Other Notes:
+The challenge was very readable and helped reinforce the pattern of iterating from 1 to n with i <= n.
